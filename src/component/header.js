@@ -2,7 +2,7 @@ import React from "react";
 import { header_logo } from "../constant/images";
 const Header = () => {
   return (
-    <header>
+    <header className="man-nav">
       <nav className="navbar navbar-expand-lg navbar-light w-100">
         <a className="navbar-brand p_0" href="#top">
           <img src={header_logo} className="nav-logo" alt="logo" />
