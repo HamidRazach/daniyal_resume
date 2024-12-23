@@ -5,7 +5,8 @@ const Header = () => {
     <header className="man-nav">
       <nav className="navbar navbar-expand-lg navbar-light w-100">
         <a className="navbar-brand p_0" href="#top">
-          <img src={header_logo} className="nav-logo" alt="logo" />
+          {/* <img src={header_logo} className="nav-logo" alt="logo" /> */}
+          <h2>Daniyal Developer</h2>
         </a>
         <button
           className="navbar-toggler"

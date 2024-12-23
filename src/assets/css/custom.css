@@ -1,3 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*================Nav Menu Css ================*/
+.man-nav .navbar a h2 {
+    font-size: 20px;
+    line-height: 48px;
+    margin-bottom: 0px;
+}
+.man-nav {
+    width: 100%;
+    padding: 15px 0;
+    min-height: 72px;
+}
+.navbar{
+	padding:0px;
+}
+.box-layout .main_nav{
+  width: 1280px;
+  display: inline-block;
+  margin: 0 auto;
+}
+/* header{
+  z-index: 11;
+} */
+.navbar-brand{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
+}
+.main_nav{
+	  width: 100%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    padding: 15px 0;
+    min-height: 72px;
+}
+.nav-scroll{
+    left: 0;
+    padding: 15px 0px;
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    z-index: 100;
+}
+.navbar-light .navbar-nav .nav-link{
+	letter-spacing:1px;
+	text-transform: uppercase;
+	line-height: 32px;
+}
+
+.navbar .navbar-nav .nav-item{
+	padding:0px 15px;
+}
+.navbar-nav .nav-item .nav-link{
+	position: relative;
+	padding: 0;
+}
+.navbar-nav .nav-item .nav-link:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    display: table;
+    height: 2px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0;
+}
+.navbar-nav .nav-item .nav-link.active:before{
+    opacity: 1;
+}
+/*==================================================================================
+09.   Side Nav menu
+====================================================================================*/
+.sidebar{
+  position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 100;
+    padding: 30px 20px;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a{
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+ul#menu li a{
+  margin: 7px 30px;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+}
+.sidebar span{
+   font-size: 36px;
+   display: block;
+   text-align: center;
+}
+.sidebar img{
+    margin-bottom: 60px;
+}
+#mysidenav img{
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 15px 0px 30px 30px;
+}   
 .man-nav nav #navbarSupportedContent {
     justify-content: flex-end;
 }
+/*====================================================================*/
