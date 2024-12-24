@@ -1,18 +1,18 @@
 import React from "react";
-import { header_logo } from "../constant/images";
+// import { header_logo } from "../constant/images";
+
 const Header = () => {
   return (
     <header className="man-nav">
       <nav className="navbar navbar-expand-lg navbar-light w-100">
         <a className="navbar-brand p_0" href="#top">
-          {/* <img src={header_logo} className="nav-logo" alt="logo" /> */}
           <h2>Daniyal Developer</h2>
         </a>
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -20,7 +20,7 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link" href="#top">
                 Home

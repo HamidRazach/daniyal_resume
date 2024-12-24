@@ -131,3 +131,38 @@ ul#menu li a{
     justify-content: flex-end;
 }
 /*====================================================================*/
+.man-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .navbar .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .collapse.navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      background-color: #fff; /* Optional for better visibility */
+    }
+
+  }
+  
