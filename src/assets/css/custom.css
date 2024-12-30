@@ -163,6 +163,12 @@ ul#menu li a{
     .navbar-collapse {
       background-color: #fff; /* Optional for better visibility */
     }
-
+      .navbar-nav .nav-item .nav-link {
+        height: 40px;
+        border-bottom: 1px solid #ccc;
+    }
+    .navbar .navbar-nav .nav-item {
+      padding: 0px !important;
+    }
   }
   
