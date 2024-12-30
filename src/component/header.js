@@ -1,4 +1,5 @@
 import React from "react";
+import { header_logo } from "../constant/images";
 // import { header_logo } from "../constant/images";
 
 const Header = () => {
@@ -6,7 +7,8 @@ const Header = () => {
     <header className="man-nav">
       <nav className="navbar navbar-expand-lg navbar-light w-100">
         <a className="navbar-brand p_0" href="#top">
-          <h2>Daniyal Developer</h2>
+          {/* <h2>Daniyal Developer</h2> */}
+          <img src={header_logo} alt="img" />
         </a>
         <button
           className="navbar-toggler"
