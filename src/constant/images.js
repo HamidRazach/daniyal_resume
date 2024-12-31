@@ -7,6 +7,8 @@ const portiflio_img5 = require("../assets/images/full-page/screencapture-shortli
 const portiflio_img6 = require("../assets/images/full-page/screencapture-superbullionwire-about-2024-12-02-22_55_11_5_11zon.webp").default;
 const portiflio_img7= require("../assets/images/full-page/screencapture-roilevelup-2024-12-01-04_42_17_3_11zon.webp").default;
 const header_logo= require("../assets/images/logo/full-logo.svg").default;
+const header_logo1= require("../assets/images/logo/logo local host.svg").default;
+
 
 
 
@@ -15,6 +17,7 @@ const header_logo= require("../assets/images/logo/full-logo.svg").default;
 
 
 export {
+    header_logo1,
     header_logo,
     portiflio_img,
     portiflio_img1,

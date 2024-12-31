@@ -1,14 +1,12 @@
 import React from "react";
-import { header_logo } from "../constant/images";
-// import { header_logo } from "../constant/images";
+import { header_logo1 } from "../constant/images";
 
 const Header = () => {
   return (
     <header className="man-nav">
-      <nav className="navbar navbar-expand-lg navbar-light w-100">
-        <a className="navbar-brand p_0" href="#top">
-          {/* <h2>Daniyal Developer</h2> */}
-          <img src={header_logo} alt="img" />
+      <nav className="navbar navbar-expand-lg navbar-light container-fluid">
+        <a className="navbar-brand p-0" href="#top">
+          <img src={header_logo1} alt="Logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -46,16 +44,6 @@ const Header = () => {
             <li className="nav-item">
               <a className="nav-link" href="#portfolio">
                 Portfolio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#testimonial">
-                Testimonial
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#blog">
-                Blog
               </a>
             </li>
             <li className="nav-item">
