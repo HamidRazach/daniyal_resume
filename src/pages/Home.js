@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../component/header";
 import Bubbles from "../component/Bubbles";
+import Footer from "../component/Footer";
 
 function home() {
   return (
@@ -13,7 +14,11 @@ function home() {
             <Header />
           </div>
         </div>
-      </div>
+        </div>
+        {/* ====footer=== */}
+          <div className="footer-section">
+            <Footer />
+          </div>
     </div>
   );
 }
