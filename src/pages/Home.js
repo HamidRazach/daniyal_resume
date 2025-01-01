@@ -7,14 +7,16 @@ function home() {
   return (
     <div className="main-content">
       <Bubbles />
-      <div className="container">
-        {/* header */}
-        <div className="row">
-          <div className="col-md-12">
-            <Header />
+      <div className="custom-navbar">
+        <div className="container">
+          {/* header */}
+          <div className="row">
+            <div className="col-md-12">
+              <Header />
+            </div>
           </div>
         </div>
-        </div>
+      </div>
         {/* ====footer=== */}
           <div className="footer-section">
             <Footer />
