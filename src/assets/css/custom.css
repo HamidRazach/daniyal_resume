@@ -62,6 +62,7 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 32px;
+  color: #fff;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -151,8 +152,18 @@ ul#menu li a {
 }
 .custom-navbar {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9); 
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  background: #000;
+}
+.custom-navbar .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.custom-navbar .container .row {
+  color: whitesmoke;
 }
 .navbar .nav-link {
   padding: 0.5rem 1rem;
